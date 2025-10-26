@@ -8,6 +8,14 @@
 // You may not use the same element twice.
 // Return the answer in any order.
 
+// How to compile and run - 
+// digambarmandhare@Digambars-MacBook-Air dsalgo % g++ two_sum.cpp -std=c++17
+// digambarmandhare@Digambars-MacBook-Air dsalgo % ./a.out 
+// Input array:  2 7 11 15
+// Setting x - target in map: 7 For x: 2
+// Indices making up the sum: 1 & 0
+
+
 #include<iostream>
 #include<map>
 
@@ -37,3 +45,4 @@ int main() {
     }
     return 0;
 }
+
